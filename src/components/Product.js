@@ -20,7 +20,7 @@ const Product = () => {
                 <img src={ topImage} alt='' />
                 <p className='cardTitle'>Card One</p>
                 <div className='cardDetails'>
-                   <p className='cardDescription'>This text is styled with some of the text formatting 
+                   <p className='cardDescription'>This  is styled with some of the text formatting 
                    properties. The heading uses the 
                    text-align, text-transform, and color properties. The paragraph is
                    </p>
