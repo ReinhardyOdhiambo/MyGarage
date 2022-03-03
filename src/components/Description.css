@@ -1,0 +1,61 @@
+.description{
+    background-color: #141B29;
+    color:white;
+    
+    
+    
+
+}
+.divider{
+    background-color: #5AC994;
+    width: 2px;
+    height: 80vh;
+    margin: 30px;
+    
+    
+    
+}
+.content{
+    display: flex;
+    
+}
+.titledesc{
+    margin-left: 50px;
+    font-size: 68px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.p1{
+    color: #5AC994;
+}
+.p2{
+    margin-top: -70px;
+    
+}
+.details{
+    margin-top: 100px;
+
+}
+.details>h1{
+    text-decoration: underline;
+    text-align: start;
+}
+.details:hover{
+    color: #5AC994;
+
+}
+.li{
+    margin-top: 20px;
+    font-weight: 100;
+    text-align:start;
+}
+.button{
+    align-items: center;
+    margin: 40px;
+    width: 200px;
+    height:50px;
+    font-size: 20px;
+}
+.button:hover{
+    box-shadow: #5AC994 5px 5px 5px ;
+}

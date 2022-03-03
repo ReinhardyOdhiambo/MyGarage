@@ -1,0 +1,52 @@
+.highlight{
+    display:flex;
+    flex-direction: column;
+    color: antiquewhite;
+    background-image:url('../assets/images/background1.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-attachment:fixed;
+    height: 100vh;
+    
+
+    
+
+}
+.titlehigh{
+    align-self:center;
+    font-size: 60px;
+    
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color:black;
+    align-items: center;
+    background-color: antiquewhite;
+    filter: opacity(70%);
+    margin: 10px;
+    padding-left: 10px;
+    height: 300px;
+}
+.bussicon{
+    margin: 10px;
+}
+.cardtitle{
+    font-size: 24px;
+      margin: -5px;
+      
+}
+.carddesc{
+    font-size: 20px;
+    margin-top: 25px;
+    max-width: 400px;
+    font-weight: 100;
+}
+
+

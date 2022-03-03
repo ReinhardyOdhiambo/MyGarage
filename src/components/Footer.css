@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    color:white;
+    background-color: #141b29;
+    
+    
+}
+
+.footlogo{
+    flex: 1;
+    margin-left: 20px;
+    color: #5ac994;
+}
+.links{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items:flex-start;
+}
+.menulinks{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact>p,.socials>p,.menulinks>a{
+    font-weight: 100;
+}
+.contact>h3,.socials>h3,.menulinks>h3{
+    text-decoration: underline;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
