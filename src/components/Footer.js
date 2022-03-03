@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='footlogo'>
-            <h1>Garage</h1>
+            <h1>MyGarage</h1>
         </div>
         <div className='links'>
         <div className='socials'>
