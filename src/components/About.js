@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import Header from './Header'
-import aboutimg from '/home/reinhardy/Desktop/krazycarz/krazy-carz-app/src/assets/images/garage.jpg'
+import aboutimg from '../assets/images/garage.jpg'
 
 
 

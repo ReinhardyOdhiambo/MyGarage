@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import './Services.css'
-import shocks from '/home/reinhardy/Desktop/krazycarz/krazy-carz-app/src/assets/images/shocks.jpg';
+import shocks from '../assets/images/shocks.jpg';
 
 const Services = () => {
   return (
