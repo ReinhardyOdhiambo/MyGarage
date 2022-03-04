@@ -3,6 +3,7 @@ import './Footer.css';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import {Link } from 'react-router-dom';
 
 
 
@@ -28,10 +29,13 @@ const Footer = () => {
             </div>
             <div className='menulinks'>
                 <h3>Menu</h3>
-                <a href='' placeholder=''>Home</a>
-                <a href='' placeholder=''>Services</a>
-                <a href='' placeholder=''>About Us</a>
-                <a href='' placeholder=''>Contact</a>
+                <div className="footerlinkContainer">
+          <Link className="footerlink" to={'/'} >Home</Link>
+          <Link className="footerlink" to={'services'} >Services</Link>
+          <Link className="footerlink" to={'/about'} >About Us</Link>
+          <Link className="footerlink" to={'/contact'} >Contact</Link>
+         
+        </div>
 
 
             </div>

@@ -12,7 +12,7 @@ const Header = () => {
     <div className="navbar">
         <div className="logoContainer">
           <img src="" alt="" />
-         <span className="spancolorr">My</span> <div>Garage</div>
+<Link className="logoname" to={'/'}><h3><span className="spancolorr">My</span>Garage</h3></Link>
         </div>
         <div className="linkContainer">
           <Link className="navlink" to={'/'} >Home</Link>
@@ -20,7 +20,7 @@ const Header = () => {
           <Link className="navlink" to={'/about'} >About Us</Link>
           <Link className="navlink" to={'/contact'} >Contact</Link>
          
-        </div>{" "}
+        </div>
         <div onClick={() => setShow(!show)} className="menuIcon">
           <MenuIcon className="menuIcon" />
         </div>

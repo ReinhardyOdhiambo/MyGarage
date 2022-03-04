@@ -40,3 +40,22 @@
     
     font-family: 'Times New Roman', Times, serif;
 }
+.footerlinkContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.footerlink{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer; 
+      
+}
+.footerlink:hover{
+
+    text-decoration: underline;
+    color:#5AC994;
+
+
+}
