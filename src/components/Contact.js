@@ -5,6 +5,7 @@ import validate from './Validateinfo';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
@@ -19,6 +20,14 @@ const Contact = () => {
   const handleSubmit =(e)=>{
     e.preventDefault();
     setErrors(validate(inputs)); 
+    emailjs.send('service_v5nnkil', 'template_tz08o4y', inputs, 'user_shBuEIKIoQO2r4QkhIuPZ');
+    setInputs({
+      username:'',
+      email:'',
+      message:''
+
+    });
+
     
   }
   
