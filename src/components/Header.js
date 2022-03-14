@@ -22,16 +22,16 @@ const Header = () => {
          
         </div>
         <div onClick={() => setShow(!show)} className="menuIcon">
-          <MenuIcon className="menuIcon" />
+          <MenuIcon  className="menuIcon" />
         </div>
         {show ? (
           <div className="r-nav">
             <div className="r-items">
-              <p>home</p>
+              <h3>home</h3>
               <Divider />
-              <p>Contact</p>
+              <h3>Contact</h3>
               <Divider />
-              <p>About Us</p>
+              <h3>About Us</h3>
               <Divider />
             </div>
           </div>
