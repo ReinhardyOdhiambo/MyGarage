@@ -57,11 +57,11 @@
     box-shadow: #5AC994 5px 5px 5px ;
 }
 
-@media only  screen and ( max-width:600px ),(min-width:400px),(min-height:1920px){
+@media only  screen and ( max-width:600px ),(min-height:1920px){
     .description{
         background-color: #141B29;
         color:white;
-        margin-top: -700px;
+        margin-top: -620px;
     }
     .divider{
         background-color: #5AC994;
