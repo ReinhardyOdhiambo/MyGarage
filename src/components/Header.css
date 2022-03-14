@@ -90,6 +90,7 @@ display:none ;
         display: block;
         margin-top: -30px;
         font-size: large;
+        margin-right: 20px;
         
     }
     .closeIcon{
@@ -115,12 +116,13 @@ display:none ;
         
     }
     .r-items{
-        padding: 10px;
+        padding: 15px;
     }
     .r-items>h3{
         font-size: 13px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 300;
+        margin-top: 10px;
     }
     .logoname,.spancolorr{
         font-size: 32px;
