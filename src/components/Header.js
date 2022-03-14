@@ -22,7 +22,7 @@ const Header = () => {
          
         </div>
         <div onClick={() => setShow(!show)} className="menuIcon">
-          <MenuIcon  className="menuIcon" />
+          <MenuIcon   fontSize="large" className="menuIcon" />
         </div>
         {show ? (
           <div className="r-nav">

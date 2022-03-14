@@ -59,3 +59,73 @@
 
 
 }
+
+@media only  screen and ( max-width:600px ),(min-height:2000px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        color:white;
+        background-color: #141b29;
+        margin-top: 100px;
+        
+        
+    }
+    
+    .footlogo{
+        
+        margin-left: 20px;
+        color: #5ac994;
+    }
+    .links{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+       
+        
+    }
+    .menulinks{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .socials{
+        display: grid;
+        
+    }
+    
+    
+    .contact>p,.socials>p,.menulinks>a{
+        font-weight: 100;
+    }
+    .contact>h3,.socials>h3,.menulinks>h3{
+        text-decoration: underline;
+        
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footerlinkContainer{
+        display: grid;
+        flex-direction: column;
+    
+    }
+    .footerlink{
+        margin: 5px;
+        font-size: 20px;
+        font-weight: 300;
+        cursor: pointer; 
+          
+    }
+    .footerlink:hover{
+    
+        text-decoration: underline;
+        color:#5AC994;
+    
+    
+    }
+
+
+}

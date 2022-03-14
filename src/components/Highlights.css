@@ -53,11 +53,10 @@
         display:flex;
         flex-direction: column;
         color: antiquewhite;
-        background-image:url('../assets/images/background1.jpg');
+        background-image:none;
         background-repeat:no-repeat;
         background-position:contain;
         background-size: 100%;
-        background-attachment:fixed;
         margin-top: -50px;
        
         
@@ -67,13 +66,17 @@
     }
     .titlehigh{
         align-self:center;
-        font-size: 60px;
+        font-size: 36px;
         
         font-weight: 500;
+        text-decoration: underline;
+          text-decoration-color: #5AC994;
+          text-decoration-thickness:4px ;
     }
     .cards{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .card{
         display: flex;
@@ -85,7 +88,8 @@
         filter: opacity(70%);
         margin: 10px;
         padding-left: 10px;
-        height: 300px;
+        height: 200px;
+        width: 250px;
     }
     .bussicon{
         margin: 10px;
@@ -98,8 +102,9 @@
     .carddesc{
         font-size: 16px;
         margin-top: 25px;
-        max-width: 400px;
+        max-width: 250px;
         font-weight: 100;
+        text-align: center;
     }
 
 

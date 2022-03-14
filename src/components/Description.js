@@ -45,7 +45,12 @@ const Description = () => {
             <div className='divider'></div>
             <div className='details'>
                     <h1>Contact Us</h1>
-                    <p>0743713416</p>
+                    <ul>
+                            <li className='li'>0743713426 </li>
+                            <li className='li'>reinhardyomondi@gmail.com</li>
+                            <li className='li'>Ngong road</li>
+                            
+                        </ul>
             </div>
 
 
