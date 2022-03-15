@@ -27,7 +27,7 @@ const Header = () => {
         {show ? (
           <div className="r-nav">
             <div className="r-items">
-            <Link to='/home' className="r-links"><h3>Home</h3></Link>
+            <Link to='/' className="r-links"><h3>Home</h3></Link>
               <Divider />
               <Link to='/services'className="r-links"><h3>Services</h3></Link>
               <Divider />
