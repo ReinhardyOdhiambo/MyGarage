@@ -52,7 +52,8 @@
     font-size: 20px;
     
 }
-.footerlogo{
+.footerlogo>h3{
+    font-size: 40px;
 
 }
 .socialinks{
@@ -78,5 +79,39 @@
         flex-direction: column;
         margin-left: 1px;
         
+    }
+    .menulinks{
+
+    }
+    .contact{
+        margin-top:30px;
+       
+    }
+    .socials{
+        margin-top: 10px;
+    
+       
+    }
+    .menulinks>p{
+        margin: 5px;
+        font-weight: 200;
+        font-size: 20px;
+        
+    }
+    .contact>p{
+        margin-bottom:5px;
+        font-size: 20px;
+        font-weight: 200;
+        
+    }
+    .contact>h3,.menulinks>h3{
+        font-size: 20px;
+        
+    }
+    .footerlogo{
+    
+    }
+    .socialinks{
+        margin: 20px;
     }
 } 

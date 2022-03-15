@@ -17,7 +17,7 @@ const Footer = () => {
     <div className='footer'>
         <div className='footerlist'>
             <div className='footerlogo'>
-                <h3 className='text-5xl font-bold '>MyStore</h3>
+                <h3 className='text-5xl font-bold mb-12'>MyGarage</h3>
 
             </div>
             <div className='menulinks'>

@@ -48,7 +48,7 @@ const Description = () => {
                     <ul>
                             <li className='li'>0743713426 </li>
                             <li className='li'>reinhardyomondi@gmail.com</li>
-                            <li className='li'>Ngong road</li>
+                            <li className='li'>Ngongs</li>
                             
                         </ul>
             </div>
