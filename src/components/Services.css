@@ -92,7 +92,7 @@
 .bannertitle{
 
 font-size: 35px;
-margin-top: -40px;
+margin-top: -10px;
 
 }
 .spancolor{
@@ -102,6 +102,7 @@ color: #5ac994;
 font-size: 16px;
 margin-top: 40px;
 text-align: center;
+display: none;
 
 }
 .servicearea{
@@ -138,6 +139,7 @@ text-align: center;
 }
 .servicecard>p{
     text-align: center;
+    max-width: 300px;
 }
 .imagecard{
 object-fit: cover;
