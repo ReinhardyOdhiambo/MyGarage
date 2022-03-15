@@ -37,6 +37,9 @@
 .servicearea>h3{
     font-size: 50px;
     margin: 50px;
+    text-decoration: underline;
+    text-decoration-color: #5ac994;
+    text-decoration-thickness:4px ;
 }
 .servicelist{
     display: grid;
@@ -65,5 +68,81 @@
 .servicecard2{
     display: flex;
     flex-direction: row-reverse;
+
+}
+@media only  screen and ( max-width:600px ),(min-height:1920px){
+
+
+
+.topbanner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image:url('../assets/images/service.jpg');
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:contain;
+    
+    
+
+}
+.bannertitle{
+
+font-size: 35px;
+margin-top: -40px;
+
+}
+.spancolor{
+color: #5ac994;
+}
+.bannerdesc{
+font-size: 16px;
+margin-top: 40px;
+text-align: center;
+
+}
+.servicearea{
+display: flex;
+flex-direction: column;
+align-items: start;
+color: white;
+background-color: #124143;
+background-attachment: fixed;
+margin-top:-650px;
+
+}
+.servicearea>h3{
+font-size: 30px;
+margin: 50px;
+text-align: center;
+}
+.servicelist{
+display: flex;
+flex-direction: column;
+grid-gap: 10px;
+margin-left: 45px;
+}
+.servicecard1{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.servicecard>h4{
+font-size: 20px;
+}
+.imagecard{
+object-fit: cover;
+width: 300px;
+height: 300px;
+border-radius: 5px;
+
+
+
+}
+
+
+
 
 }
