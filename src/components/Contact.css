@@ -150,7 +150,7 @@
 
 }
 .contactform{
-    margin-top: -600px;
+    margin-top: -1000px;
     display: flex;
     flex-direction:column-reverse;
     justify-content: space-between;
