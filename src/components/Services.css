@@ -73,7 +73,9 @@
 @media only  screen and ( max-width:600px ),(min-height:1920px){
 
 
-
+.services{
+    margin-bottom: 130px;
+}
 .topbanner{
     display: flex;
     align-items: center;
@@ -105,7 +107,7 @@ text-align: center;
 .servicearea{
 display: flex;
 flex-direction: column;
-align-items: start;
+align-items: center;
 color: white;
 background-color: #124143;
 background-attachment: fixed;
@@ -114,23 +116,28 @@ margin-top:-650px;
 }
 .servicearea>h3{
 font-size: 30px;
-margin: 50px;
 text-align: center;
 }
 .servicelist{
 display: flex;
 flex-direction: column;
 grid-gap: 10px;
-margin-left: 45px;
+align-items: center;
+margin-left: -10px;
 }
 .servicecard1{
 display: flex;
 flex-direction: column;
+align-items: center;
 justify-content: space-between;
 
 }
 .servicecard>h4{
 font-size: 20px;
+text-align: center;
+}
+.servicecard>p{
+    text-align: center;
 }
 .imagecard{
 object-fit: cover;
