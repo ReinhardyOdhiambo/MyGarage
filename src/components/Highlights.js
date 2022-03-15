@@ -31,12 +31,7 @@ const Highlights = () => {
                     <p className='carddesc'>This is a short description elaborating 
                     the service you have mentioned above. </p>
                 </div>
-                <div className='card'>
-                    <BusinessCenterRoundedIcon fontSize="large" className='bussicon'/>
-                    <h6 className='cardtitle'>Expert Engineers</h6>
-                    <p className='carddesc'>This is a short description elaborating 
-                    the service you have mentioned above. </p>
-                </div>
+              
                 
             </div>
             
