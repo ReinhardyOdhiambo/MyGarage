@@ -20,33 +20,28 @@ const Footer = () => {
                 <h3 className='text-5xl font-bold mb-12'>MyGarage</h3>
 
             </div>
-            <div className='menulinks'>
-                <h3>Quick Links </h3>
+            <div className='contact'>
+                <h3>Quick  Links</h3>
                 <p> Home</p>
-                <p>  Services</p>
-                <p> About Us </p>
-                
-                
-
+                <p> Services</p>
+                <p> About Us</p>
+                <p>Contact</p>
             </div>
+            
             <div className='contact'>
                 <h3>Stay In Touch</h3>
                 <p> <Mail/> info@mystore.com</p>
                 <p> <Phone/> +254743713416</p>
                 <p> <Map/> Nairobi , Kenya</p>
-
-                
-                
-
-
             </div>
+
 
         </div>
         <div className='socials'>
-            <FacebookRounded fontSize='large' className='socialinks'/>
-            <Instagram fontSize='large' className='socialinks'/>
-            <Twitter fontSize='large' className='socialinks'/>
-            <WhatsappRounded fontSize='large' className='socialinks'/>
+            <FacebookRounded fontSize='large' color='primary' className='socialinks'/>
+            <Instagram fontSize='large'  className='socialinksig'/>
+            <Twitter fontSize='large' color='primary' className='socialinks'/>
+            <WhatsappRounded fontSize='large' color='#00a152' className='socialinkswp'/>
         </div>
     </div>
   )

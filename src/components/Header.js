@@ -27,11 +27,13 @@ const Header = () => {
         {show ? (
           <div className="r-nav">
             <div className="r-items">
-              <h3>home</h3>
+              <h3>Home</h3>
               <Divider />
-              <h3>Contact</h3>
+              <h3>Services</h3>
               <Divider />
               <h3>About Us</h3>
+              <Divider />
+              <h3>Contact</h3>
               <Divider />
             </div>
           </div>

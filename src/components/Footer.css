@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 .footerlist{
     margin-top: 10px;
@@ -19,7 +19,7 @@
 .menulinks,.contact{
     display: flex;
     flex-direction: column;
-    margin-left: 500px;
+    margin-left: 300px;
 
 
     
@@ -56,8 +56,16 @@
     font-size: 40px;
 
 }
-.socialinks{
+.socialinks,.socialinkswp,.socialinksig{
     margin: 20px;
+}
+.socialinkswp{
+    color: #00a152;
+}
+.socialinksig{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 5px;
 }
 @media only  screen and ( max-width:600px ),(min-height:1920px){
     .footer{
@@ -66,12 +74,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -100px;
+        margin-top: -130px;
     }
     .footerlist{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items:flex-start;
     }
     
     .menulinks,.contact{
