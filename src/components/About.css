@@ -26,7 +26,7 @@
         margin-top: -200px;
 }
 .detailstitle{
-        max-width: 500px;
+        max-width: 0px;
 
 }
 .detailstitle>h3{
@@ -71,4 +71,100 @@
         text-align: right;
         margin-right: 35px;
         margin-top: -10px;
+}
+
+@media only  screen and ( max-width:600px ),(min-height:1920px){
+
+
+
+.aboutbanner{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        background-image:url('../assets/images/background2.jpg');
+        background-repeat:no-repeat;
+        background-position:top;
+        background-size:  contain;
+        
+}
+.bannertitle{
+
+        font-size: 35px;
+        margin-top: -40px;
+        
+}
+.bannerdesc{
+        display: none;
+}
+.aboutdetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: -600px;
+        
+      
+}
+.aboutimage>img{
+        object-fit: cover;
+        height: 800px;
+        width: 400px;
+        margin-left: 200px;
+        margin-top: -200px;
+        display: none;
+}
+.detailstitle{
+        max-width:none;
+        text-align: start;
+
+}
+.detailstitle>h3{
+        font-size: 35px;
+        text-decoration: underline;
+        text-decoration-color: #5ac994;
+        text-align: center;
+}
+.detailstitle>p{
+        font-weight: 100;
+        text-align: center;
+        
+        
+}
+.customer{
+        background-image:none;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:  100%;
+        background-attachment: fixed;
+        height: 100vh;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        
+
+
+}
+.customer>h3{
+        margin-right: 0px;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+        text-decoration-color: #5ac994;
+}
+.customerblock>p{
+        max-width: 300px;
+        margin-right: 50px;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: center;
+}
+.customerblock>h3{
+        text-align: center;
+        margin-right: 35px;
+        margin-top: -10px;
+}
+
 }
