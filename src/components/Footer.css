@@ -4,29 +4,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .footerlist{
     margin-top: 20px;
     display: flex;    
     align-items: center;
-    margin-left: 100px;
+    justify-content: space-between;
+    
+
+    
 
 }
 .menulinks,.contact{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 500px;
+
+
+    
 }
 .menulinks{
-    margin-left: 280px;
+
 }
 .contact{
     margin-top:57px;
-    margin-left: 350px;
+   
 }
 .socials{
     margin-top: 25px;
-    margin-left: -150px;
+
    
 }
 .menulinks>p{
@@ -38,7 +45,7 @@
     
 }
 .footerlogo{
-margin-left: -100px;
+
 }
 .socialinks{
     margin: 20px;
@@ -50,47 +57,18 @@ margin-left: -100px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: -100px;
     }
     .footerlist{
-        margin-top: 20px;
-        display: flex; 
-        flex-direction: column;   
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        
-    
     }
+    
     .menulinks,.contact{
         display: flex;
         flex-direction: column;
+        margin-left: 1px;
         
     }
-    .menulinks{
-        margin-right:380px ;
-        
-    }
-    .contact{
-        margin-top:57px;
-        margin-right:430px ;
-        
-    }
-    .socials{
-        margin-top: 25px;
-        margin-left: 17px;
-       
-    }
-    .menulinks>p{
-        margin: 5px;
-        
-    }
-    .contact>p{
-        margin-bottom:5px;
-        
-    }
-    .footerlogo{
-    margin-left: -100px;
-    }
-    .socialinks{
-        margin: 20px;
-    }
-
-}
+} 
