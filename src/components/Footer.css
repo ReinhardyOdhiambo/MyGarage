@@ -1,5 +1,5 @@
 .footer{
-    background-color: #141B29;
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@
 }
 @media only  screen and ( max-width:600px ),(min-height:1920px){
     .footer{
-        background-color: #141B29;
+        background-color: black;
         color: white;
         display: flex;
         flex-direction: column;
