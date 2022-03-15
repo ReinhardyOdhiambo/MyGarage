@@ -27,13 +27,13 @@ const Header = () => {
         {show ? (
           <div className="r-nav">
             <div className="r-items">
-            <Link to='/services' className="r-links">Home</Link>
+            <Link to='/home' className="r-links"><h3>Home</h3></Link>
               <Divider />
-              <Link to='/services'className="r-links">Services</Link>
+              <Link to='/services'className="r-links"><h3>Services</h3></Link>
               <Divider />
-              <Link to='/services'className="r-links">About Us</Link>
+              <Link to='/about'className="r-links"><h3>About Us</h3></Link>
               <Divider />
-              <Link to='/services'className="r-links">Contact</Link>
+              <Link to='/contact'className="r-links"><h3>Contact</h3></Link>
               <Divider />
             </div>
           </div>

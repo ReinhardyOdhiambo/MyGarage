@@ -20,7 +20,7 @@ const Footer = () => {
                 <h3 className='text-5xl font-bold mb-12'>MyGarage</h3>
 
             </div>
-            <div className='contact'>
+            <div className='footercontact'>
                 <h3>Quick  Links</h3>
                 <p> Home</p>
                 <p> Services</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <p>Contact</p>
             </div>
             
-            <div className='contact'>
+            <div className='footercontact'>
                 <h3>Stay In Touch</h3>
                 <p> <Mail/> info@mystore.com</p>
                 <p> <Phone/> +254743713416</p>

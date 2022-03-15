@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    
 }
 .footerlist{
     margin-top: 10px;
@@ -16,7 +16,7 @@
     
 
 }
-.menulinks,.contact{
+.menulinks,.footercontact{
     display: flex;
     flex-direction: column;
     margin-left: 300px;
@@ -27,7 +27,7 @@
 .menulinks{
 
 }
-.contact{
+.footercontact{
     margin-top:30px;
    
 }
@@ -42,13 +42,13 @@
     font-size: 20px;
     
 }
-.contact>p{
+.footercontact>p{
     margin-bottom:5px;
     font-size: 20px;
     font-weight: 200;
     
 }
-.contact>h3,.menulinks>h3{
+.footercontact>h3,.menulinks>h3{
     font-size: 20px;
     
 }
@@ -82,7 +82,7 @@
         align-items:flex-start;
     }
     
-    .menulinks,.contact{
+    .menulinks,.footercontact{
         display: flex;
         flex-direction: column;
         margin-left: 1px;
@@ -91,7 +91,7 @@
     .menulinks{
 
     }
-    .contact{
+    .footercontact{
         margin-top:30px;
        
     }
@@ -106,13 +106,13 @@
         font-size: 20px;
         
     }
-    .contact>p{
+    .footercontact>p{
         margin-bottom:5px;
         font-size: 20px;
         font-weight: 200;
         
     }
-    .contact>h3,.menulinks>h3{
+    .footercontact>h3,.menulinks>h3{
         font-size: 20px;
         
     }
