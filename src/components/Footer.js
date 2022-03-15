@@ -21,7 +21,7 @@ const Footer = () => {
 
             </div>
             <div className='menulinks'>
-                <h3 className='font-bold text-lg mr-1'>Quick Links </h3>
+                <h3>Quick Links </h3>
                 <p> Home</p>
                 <p>  Services</p>
                 <p> About Us </p>
@@ -30,13 +30,14 @@ const Footer = () => {
 
             </div>
             <div className='contact'>
-                <h3 className='text-lg font-bold '>Stay In Touch</h3>
+                <h3>Stay In Touch</h3>
                 <p> <Mail/> info@mystore.com</p>
                 <p> <Phone/> +254743713416</p>
                 <p> <Map/> Nairobi , Kenya</p>
 
                 
                 
+
 
             </div>
 
